@@ -6,19 +6,17 @@ import HomeIcon from '../../../../assets/icon_1900.webp';
 import '../../Articoli.css';
 import {Link} from "react-router-dom";
 import img1 from './scomposizione.webp';
-
-
-import * as Latex from 'react-latex'
-import 'katex/dist/katex.min.css'
+import Latex from 'react-latex-next';
+import 'katex/dist/katex.min.css';
 
 function ICON4() {
-  const fRemember =`$$ S \\times P_l \\times C_h \\rightarrow S $$`;
-  const fCommand = `$$ S \\times P_l \\times C_h \\rightarrow C_l$$`;
-  const fTell = `$$ S \\times P_l \\times C_h \\rightarrow P_h$$`;
-  const m1=`$$P_l$$`;
-  const m2=`$$C_h$$`;
-  const m3=`$$P_h$$`;
-  const m4=`$$C_l$$`;
+  const fRemember =`$ S \\times P_l \\times C_h \\rightarrow S $`;
+  const fCommand = `$ S \\times P_l \\times C_h \\rightarrow C_l$`;
+  const fTell = `$ S \\times P_l \\times C_h \\rightarrow P_h$`;
+  const m1=`$P_l$`;
+  const m2=`$C_h$`;
+  const m3=`$P_h$`;
+  const m4=`$C_l$`;
   
   return (
     <div>

@@ -7,7 +7,8 @@ import Figura1 from './Figura1.webp';
 import '../../Articoli.css';
 import '../Reti.css'
 import { Link } from 'react-router-dom';
-import Latex from 'react-latex-next'
+import Latex from 'react-latex-next';
+import 'katex/dist/katex.min.css';
 
 function Reti02() {
     const frazione1=`$ \\frac{L}{R} $`

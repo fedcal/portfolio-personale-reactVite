@@ -5,21 +5,21 @@ import Footer from '../../../../Footer/Footer';
 import HomeIcon from '../../../../assets/icon_1900.webp';
 import '../../Articoli.css';
 import {Link} from "react-router-dom";
-import * as Latex from 'react-latex'
-import 'katex/dist/katex.min.css'
+import Latex from 'react-latex-next';
+import 'katex/dist/katex.min.css';
 
 function ICON3() {
-    const appartiene=`$$ \\in $$`;
+    const appartiene=`$ \\in $`;
 
-    const funzioneCredenza=`$$ remember: S \\times P \\rightarrow S $$`;
-    const funzioneCredenza2=`$$ s_{t+1} = remember(s_t,p_t)$$`;
-    const membro1=`$$s_{t+1}$$`;
-    const membro2=`$$s_t$$`;
-    const membro3=`$$p_t$$`;
+    const funzioneCredenza=`$ remember: S \\times P \\rightarrow S $`;
+    const funzioneCredenza2=`$ s_{t+1} = remember(s_t,p_t)$`;
+    const membro1=`$s_{t+1}$`;
+    const membro2=`$s_t$`;
+    const membro3=`$p_t$`;
 
-    const funzioneComand=`$$ comand: S \\times P \\rightarrow C$$`;
-    const funzioneComand2=`$$ c_t = comand(s_t,p_t)$$`;
-    const membro4=`$$c_t$$`;
+    const funzioneComand=`$ comand: S \\times P \\rightarrow C$`;
+    const funzioneComand2=`$ c_t = comand(s_t,p_t)$`;
+    const membro4=`$c_t$`;
 
   return (
     <div>

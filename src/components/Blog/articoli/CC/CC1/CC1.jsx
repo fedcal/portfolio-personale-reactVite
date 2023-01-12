@@ -4,19 +4,19 @@ import Navbar from '../../../../Navbar/Navbar';
 import Footer from '../../../../Footer/Footer';
 import HomeCC from '../../../../assets/cc_1900.webp';
 import '../../Articoli.css';
-import * as Latex from 'react-latex'
-import 'katex/dist/katex.min.css'
+import Latex from 'react-latex-next';
+import 'katex/dist/katex.min.css';
 
 function CC1() {
-  const inSimbolo = `$$\\in$$`;
-  const outSimbolo = `$$\\not \\in$$`;
-  const sottoinsiemeSimnolo = `$$A \\subset B$$`;
-  const insiemeVuoto = `$$\\emptyset$$`;
-  const prodottoCartesiano = `$$A \\times B$$`;
-  const simboloSommatoria = `$$\\sum$$`;
-  const cardinalitaParola = `$$\\mid w \\mid$$`;
-  const lambda1 = `$$\\varepsilon$$`;
-  const lambda2 = `$$\\lambda$$`;
+  const inSimbolo = `$\\in$`;
+  const outSimbolo = `$\\not \\in$`;
+  const sottoinsiemeSimnolo = `$A \\subset B$`;
+  const insiemeVuoto = `$\\emptyset$`;
+  const prodottoCartesiano = `$A \\times B$`;
+  const simboloSommatoria = `$\\sum$`;
+  const cardinalitaParola = `$\\mid w \\mid$`;
+  const lambda1 = `$\\varepsilon$`;
+  const lambda2 = `$\\lambda$`;
 
   return (
     <div>
